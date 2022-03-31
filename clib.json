@@ -9,6 +9,7 @@
         "module"
     ],
     "license": "MIT",
+    "files": ["include/hashmap.h", "tests/test_hash1.c"],
     "makefile": "Makefile",
     "install": "make install",
     "dependencies": {
