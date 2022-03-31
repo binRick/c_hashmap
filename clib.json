@@ -2,17 +2,23 @@
     "name": "c_hash",
     "version": "0.0.1",
     "repo": "binRick/c_hash",
-    "description": "C Base64 Encoder & Decoder",
+    "description": "C Hash Library",
     "keywords": [
         "c",
         "hash",
+        "map",
+        "hashmap",
         "module"
     ],
     "license": "MIT",
-    "files": ["include/hashmap.h", "tests/test_hash1.c"],
+    "files": [
+        "include/hashmap.h",
+        "tests/test_hash1.c"
+    ],
     "makefile": "Makefile",
     "install": "make install",
     "dependencies": {
-        "clibs/module": "0.1.1"
+        "clibs/module": "0.1.1",
+        "binRick/c_dbg": "f762d6368761799db67a793927b4d28b86316254"
     }
 }
