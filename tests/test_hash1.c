@@ -1,3 +1,3 @@
-#include "tests/test_common.h"
+#include "tests/common.h"
 
 UTEST_MAIN()
