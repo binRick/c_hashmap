@@ -1,6 +1,5 @@
 #ifndef SHEREDOM_HASHMAP_H_INCLUDED
 #define SHEREDOM_HASHMAP_H_INCLUDED
-#include "include/deps.h"
 #if defined (_MSC_VER)
 // Workaround a bug in the MSVC runtime where it uses __cplusplus when not
 // defined.
