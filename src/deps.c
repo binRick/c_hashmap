@@ -1,3 +1,3 @@
 /********************/
-#include "deps/c_dbg/dbg.h"
+#include "deps/c_dbg/dbg.c"
 /********************/
