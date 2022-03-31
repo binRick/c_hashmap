@@ -18,7 +18,6 @@
     "makefile": "Makefile",
     "install": "make install",
     "dependencies": {
-        "clibs/module": "0.1.1",
-        "binRick/c_dbg": "f762d6368761799db67a793927b4d28b86316254"
+        "clibs/module": "0.1.1"
     }
 }
