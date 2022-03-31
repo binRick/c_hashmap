@@ -22,6 +22,11 @@ incdir = include_directories(
   '../ok',
 )
 #//***********************************************************/
+test_hash2 = executable('test_hash2', [ 
+    'tests/test_hash2.c',  
+  ], include_directories : [incdir], 
+  dependencies : [],
+)
 test_hash1 = executable('test_hash1', [ 
     'tests/test_hash1.c',  
   ], include_directories : [incdir], 
@@ -30,6 +35,7 @@ test_hash1 = executable('test_hash1', [
 #//***********************************************************/
 tests = [
   ['test hash 1', test_hash1, 'test-hash-1.log'],
+  ['test hash 2', test_hash2, 'test-hash-2.log'],
 ]
 #//***********************************************************/
 
